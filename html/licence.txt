@@ -1,0 +1,23 @@
+<li id="" class=""><a title="LICENCE" href="#" class="" aria-haspopup="true">LICENCE <span class=""></span></a>
+<ul role="menu" class="">
+	<li id="" class=""><a title="Accéder aux cours" href="">Accéder aux cours</a>
+	<ul role="menu" class="">
+		<li id="" class=""><a title="Semestre 1 - Licence 1" target="_blank" href="">Semestre 1 &#8211; Licence 1</a></li>
+		<li id="" class=""><a title="Semestre 2 - Licence 1" target="_blank" href="">Semestre 2 &#8211; Licence 1</a></li>
+		<li id="" class=""><a title="Semestre 3 - Licence 2" target="_blank" href="">Semestre 3 &#8211; Licence 2</a></li>
+		<li id="" class=""><a title="Semestre 4 - Licence 2" target="_blank" href="">Semestre 4 &#8211; Licence 2</a></li>
+		<li id="" class=""><a title="Semestre 5 - Licence 3" target="_blank" href="">Semestre 5 &#8211; Licence 3</a></li>
+		<li id="" class=""><a title="Semestre 6 - Licence 3" target="_blank" href="">Semestre 6 &#8211; Licence 3</a></li>
+	</ul>
+</li>
+	<li id="" class=""><a title="Nos spécialités et Débouchés" href="">Nos spécialités et Débouchés</a></li>
+	<li id="" class=""><a title="Modèle pédagogique" href="">Modèle pédagogique</a></li>
+	<li id="" class=""><a title="Maquettes" href="">Maquettes</a></li>
+	<li id="" class=""><a title="Planning des enseignements" href="">Planning des enseignements</a></li>
+	<li id="" class=""><a title="Programmes pédagogiques" href="">Programmes pédagogiques</a>
+	<ul role="menu" class="">
+		<li id="" class=""><a title="Licence 1" href="">Licence 1</a></li>
+		<li id="" class=""><a title="Licence 2" href="">Licence 2</a></li>
+		<li id="" class=""><a title="Licence 3" href="">Licence 3</a></li>
+		<li id="" class=""><a title="CALENDRIER UNIVERSITAIRE" href="">CALENDRIER UNIVERSITAIRE</a></li>
+	</ul>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="aaa.css">
+</head>
+<body>
+<h1>Menu deroulant with flexbox</h1>
+<nav>
+	<ul>
+		<li class="deroulant"><a href="#">fruit</a>
+		<ul class="juteux">
+			<li><a href="#">banane</a></li>
+			<li><a href="#">orange</a></li>
+			<li><a href="#">citron</a></li>
+		</li>
+		</ul>
+		<li class="deroulant"><a href="#">legumineuse</a>
+			<ul class="juteux">
+				<li><a href="#">oignon</a></li>
+				<li><a href="#">fougere</a></li>
+				<li><a href="#">ail</a></li>
+			</ul>
+		</li>
+		<li><a href="#">viande</a></li>
+		<li><a href="#">poisson</a></li>
+	</ul>
+</nav>
+
+<div class="conteneur">
+	<p>Du contenu sur le menu</p>
+</div>
+
+</body>
+</html>
+
+voici le code css:
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+nav{
+	width: 100%;
+	margin: 0 auto;
+	background-color: white;
+	position: sticky;
+	top: 0px;
+}
+nav ul{
+	list-style-type: none;
+	display: flex;
+}
+nav ul li{
+	flex: 1 1 auto;
+	text-align: center;
+	position: relative;
+}
+nav a{
+	display: block;
+	text-decoration: none;
+	color: black;
+	border-bottom: 2px solid transparent;
+	padding: 10px 0px;
+}
+nav a:hover{
+	 color: orange;
+    border-bottom: 2px solid gold;
+}
+   
+
+.juteux{
+	display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+
+}
+nav > ul li:hover .juteux{
+    display: block;
+}
+.juteux li{
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+.juteux a{
+    padding: 10px;
+    border-bottom: none;
+}
+.juteux a:hover{
+    border-bottom: none;
+    background-color: RGBa(200,200,200,0.1);
+}
+.deroulant > a::after{
+    content:" ▼";
+    font-size: 12px;
+}
+
+.conteneur{
+  margin: 50px 20px;
+  height: 1500px;
+}
+
+

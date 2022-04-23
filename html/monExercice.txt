@@ -1,0 +1,14 @@
+EXERCICES:
+
+Exo1: Faire une boucle de 0 a 100 et afficher uniquement les nombres impairs.
+
+Exo2: Creer une fonction pour convertir les dégrés celcius en Farheneight.
+       FORMULE: Fareheneight = Celcius * 1.8 + 32;
+
+Exo3: Créer une STRUCTURE DE CONDITION (if else if else) pour determiner la boisson
+      (whisky, biere,vin,jus d'orange, chocolat au lait, coca cola) selon des ages que 
+       vous allez supposer.
+
+exo4:  Creer une Map string, booleen avec une liste de garçons et 
+       de filles, faire un print uniquement pour les filles.
+       NB: Taille de Map est d'au mois 20.

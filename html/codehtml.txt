@@ -1,0 +1,64 @@
+<div id="menu">
+		<ul>
+			<li>
+				<a href="#">produits</a>
+				<ul>
+					<li><a href="#">lien1</a></li>
+					<li><a href="#">lien2</a></li>
+					<li><a href="#">lien3</a></li>
+					<li><a href="#">lien4</a></li>
+				</ul>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="#">a propos</a>
+				<ul>
+					<li><a href="#">lien1</a></li>
+					<li><a href="#">lien2</a></li>
+					<li><a href="#">lien3</a></li>
+					<li><a href="#">lien4</a></li>
+				</ul>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="#">me contacter</a>
+				<ul>
+					<li><a href="#">lien1</a></li>
+					<li><a href="#">lien2</a></li>
+					<li><a href="#">lien3</a></li>
+					<li><a href="#">lien4</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+
+code CSS:
+
+#menu ul{
+	margin: 0;
+	padding: 0;
+}
+#menu li{
+	list-style: none;
+	float: left;
+	position: relative;
+}
+#menu ul li a{
+	color:red;
+	text-decoration: none;
+	width: 150px;
+	height: 30px;
+	display:block;
+	text-align: center; 
+}
+#menu ul ul{
+	position:absolute;
+	top: 30px;
+	visibility: hidden;
+}
+#menu ul li:hover ul{
+	visibility: visible;
+
+}
